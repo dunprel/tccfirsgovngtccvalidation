@@ -75,25 +75,25 @@ const Index = () => {
                 </tr>
                 <tr>
                   <td className="border border-border p-2 font-bold">Date Issued</td>
-                  <td colSpan={3} className="border border-border p-2">2022-11-29 16:50:11</td>
+                  <td colSpan={3} className="border border-border p-2">2025-04-10 16:50:11</td>
                 </tr>
                 <tr>
                   <td className="border border-border p-2 font-bold">Expiry Date</td>
-                  <td colSpan={3} className="border border-border p-2">2022-12-31</td>
+                  <td colSpan={3} className="border border-border p-2">2025-12-31</td>
                 </tr>
                 {/* Assessment headers */}
                 <tr>
                   <td className="border border-border p-2"></td>
-                  <td className="border border-border p-2 font-bold">Assessment 2019</td>
-                  <td className="border border-border p-2 font-bold">Assessment 2020</td>
-                  <td className="border border-border p-2 font-bold">Assessment 2021</td>
+                  <td className="border border-border p-2 font-bold">Assessment 2022</td>
+                  <td className="border border-border p-2 font-bold">Assessment 2023</td>
+                  <td className="border border-border p-2 font-bold">Assessment 2024</td>
                 </tr>
                 {/* Revenue */}
                 <tr>
                   <td className="border border-border p-2 font-bold">Revenue</td>
-                  <td className="border border-border p-2 font-bold">0.00</td>
-                  <td className="border border-border p-2 font-bold">20,916,663.00</td>
-                  <td className="border border-border p-2 font-bold">4,931,813.00</td>
+                  <td className="border border-border p-2 font-bold">23,675,115.00</td>
+                  <td className="border border-border p-2 font-bold">22,116,383.00</td>
+                  <td className="border border-border p-2 font-bold">35,355,416.40</td>
                 </tr>
               </tbody>
             </table>
