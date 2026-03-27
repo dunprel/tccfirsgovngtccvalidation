@@ -1,16 +1,112 @@
-// Update this page (the content is just a fallback if you fail to update the page)
-
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
+    <div className="min-h-screen flex flex-col bg-background">
+      {/* Header */}
+      <header className="bg-card px-4 py-3">
+        <div className="flex items-center gap-3">
+          <img
+            src="https://tcc.firs.gov.ng/images/firslogo1.png"
+            alt="NRS Logo"
+            className="h-12"
+          />
+        </div>
+        <p className="text-primary text-sm mt-1">Together we rise, Together we prosper</p>
+        <hr className="mt-3 border-border" />
+      </header>
+
+      {/* Nav */}
+      <nav className="flex items-center justify-between" style={{ backgroundColor: 'hsl(0 0% 24%)' }}>
+        <div className="flex">
+          <a href="#" className="px-4 py-2 text-sm text-primary-foreground" style={{ backgroundColor: 'hsl(0 72% 51%)' }}>
+            Home
+          </a>
+          <a href="#" className="px-4 py-2 text-sm text-primary-foreground hover:opacity-80">
+            Admin Page
+          </a>
+        </div>
+        <span className="text-primary-foreground text-sm pr-4">— Guest</span>
+      </nav>
+
+      {/* EServices Portal subtitle */}
+      <div className="px-4 py-2">
+        <h6 className="text-primary font-semibold text-sm">EServices Portal</h6>
+        <p className="text-primary text-xs">— For your TCC and Receipts</p>
+      </div>
+
+      {/* Main Content */}
+      <main className="flex-1 px-4 pb-8">
+        <div className="max-w-4xl mx-auto bg-card border border-border rounded">
+          {/* TCC Validation header */}
+          <div className="p-4 border-b border-border">
+            <p className="font-normal text-foreground">TCC Validation</p>
+            <ul className="list-disc ml-5 mt-1">
+              <li>
+                <a href="#" className="text-sm" style={{ color: 'hsl(211 100% 43%)' }}>Return back</a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Table */}
+          <div className="p-4">
+            <table className="w-full border-collapse border border-border text-sm">
+              <tbody>
+                {/* Logo row */}
+                <tr>
+                  <td colSpan={4} className="border border-border p-6 text-center" style={{ backgroundColor: 'hsl(0 0% 93%)' }}>
+                    <img
+                      src="https://tcc.firs.gov.ng/images/firslogo1.png"
+                      alt="NRS Logo"
+                      className="h-10 mx-auto"
+                    />
+                  </td>
+                </tr>
+                {/* Spacer */}
+                <tr>
+                  <td colSpan={4} className="border border-border p-1"></td>
+                </tr>
+                {/* Company info */}
+                <tr>
+                  <td className="border border-border p-2 font-bold w-1/3">Name of Company</td>
+                  <td colSpan={3} className="border border-border p-2">INTEGRATED AIMS COMPANY LIMITED</td>
+                </tr>
+                <tr>
+                  <td className="border border-border p-2 font-bold">Office Issued</td>
+                  <td colSpan={3} className="border border-border p-2">MSTO AJAH</td>
+                </tr>
+                <tr>
+                  <td className="border border-border p-2 font-bold">Date Issued</td>
+                  <td colSpan={3} className="border border-border p-2">2022-11-29 16:50:11</td>
+                </tr>
+                <tr>
+                  <td className="border border-border p-2 font-bold">Expiry Date</td>
+                  <td colSpan={3} className="border border-border p-2">2022-12-31</td>
+                </tr>
+                {/* Assessment headers */}
+                <tr>
+                  <td className="border border-border p-2"></td>
+                  <td className="border border-border p-2 font-bold">Assessment 2019</td>
+                  <td className="border border-border p-2 font-bold">Assessment 2020</td>
+                  <td className="border border-border p-2 font-bold">Assessment 2021</td>
+                </tr>
+                {/* Revenue */}
+                <tr>
+                  <td className="border border-border p-2 font-bold">Revenue</td>
+                  <td className="border border-border p-2 font-bold">0.00</td>
+                  <td className="border border-border p-2 font-bold">20,916,663.00</td>
+                  <td className="border border-border p-2 font-bold">4,931,813.00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </main>
+
+      {/* Footer */}
+      <footer className="py-2 px-4 text-muted-foreground text-xs">
+        © Copyright 2026 Nigeria Revenue Service. All Rights Reserved
+      </footer>
     </div>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
