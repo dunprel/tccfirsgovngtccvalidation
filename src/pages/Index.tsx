@@ -102,7 +102,7 @@ const Index = () => {
       </main>
 
       {/* Footer */}
-      <footer className="py-2 px-4 text-muted-foreground text-xs">
+      <footer className="py-2 px-4 bg-card text-muted-foreground text-xs">
         © Copyright 2026 Nigeria Revenue Service. All Rights Reserved
       </footer>
     </div>
