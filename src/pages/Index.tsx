@@ -48,7 +48,7 @@ const Index = () => {
 
           {/* Table */}
           <div className="p-4">
-            <table className="w-full border-collapse border border-border text-sm">
+            <table className="w-full border-collapse border border-border text-sm [&_tr:nth-child(odd)]:bg-muted/50 [&_tr:hover]:bg-muted">
               <tbody>
                 {/* Logo row */}
                 <tr>
